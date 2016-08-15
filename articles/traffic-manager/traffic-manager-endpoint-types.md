@@ -41,7 +41,7 @@ Azure endpoints are used to configure Azure-based services in Traffic Manager.  
 
 - ‘Classic’ IaaS VMs and PaaS cloud services.
 - Web Apps
-- PublicIPAddress resources (which can be connected to VMs either directly or via an Azure Load Balancer)
+- PublicIPAddress resources (which can be connected to VMs either directly or via an Azure Load Balancer). Note that the PublicIpAddress must have a DNS name assigned to be used in Traffic Manager
 
 PublicIPAddress resources are Azure Resource Manager resources, they do not exist in the Azure Service Management APIs.  Thus they are only supported in Traffic Manager’s Azure Resource Manager experiences.  The other endpoint types are supported via both Resource Manager and Service Management experiences in Traffic Manager.
 
