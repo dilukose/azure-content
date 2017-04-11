@@ -31,7 +31,7 @@ This page describes the traffic-routing methods supported by Azure Traffic Manag
 
 Azure Traffic Manager supports a number of algorithms to determine how end users are routed to the various service endpoints.  These are called traffic-routing methods.  The traffic-routing method is applied to each DNS query received, to determine which endpoint should be returned in the DNS response.
 
-There are three traffic routing methods available in Traffic Manager:
+There are four traffic routing methods available in Traffic Manager:
 
 - **Priority:** Select ‘Priority’ when you want to use a primary service endpoint for all traffic, and provide backups in case the primary or the backup endpoints are unavailable. For more information, see [Priority traffic-routing method](#priority-traffic-routing-method).
 
